@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- PWA -->
+    <meta name="theme-color" content="#070b12" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="manifest" href="/solo-leveling-system/manifest.webmanifest" />
+
+    <!-- iOS PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="SL System" />
+    <link rel="apple-touch-icon" href="/solo-leveling-system/apple-touch-icon.png" />
+
+    <title>Solo Leveling System</title>
+    <style>
+      *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { height: 100%; background: #070b12; overscroll-behavior: none; }
+      body { -webkit-tap-highlight-color: transparent; }
+      #root {
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+      }
+    </style>
+    <script type="module" crossorigin src="/solo-leveling-system/assets/index-9l9zoiYm.js"></script>
+  <link rel="manifest" href="/solo-leveling-system/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/solo-leveling-system/registerSW.js"></script></head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
